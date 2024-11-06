@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <link rel="stylesheet" href="stylep.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body >
+        <nav class="nav-bar">
+            <img class="icon" src="/LOGO_[C@8289ea2.png" alt="logo icon" width="55" height="44">
+           <div id ="overly" class="overley">
+                <a href="/1index.html">Home</a>
+                <a href="/about.html">About</a>
+                <a href="/service.html">Services</a>
+                <a href="/portfolio.html">Portfolio</a>
+                <a href="/blog.html">Blog</a>
+                <a href="/contacts.html">Contact</a>
+            </div>
+            <div id="hmb" class="humberg">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          <!-- <a href="javascript:viod(0);"class="humberg" onclick="myFunction('ov')"><i class="far far-bars"></i><img src="/hamburger.png" alt="logo icon" width="32" height="32"></a> -->
+          <script>
+                const hmb = document.getElementById("hmb");
+                const overly = document.getElementById("overly");
+                hmb.addEventListener('click', () => {
+                    hmb.classList.toggle('active');
+                    overly.classList.toggle('active');
+                })
+          </script>     
+        </nav> 
+        <div class="main"> 
+            
+            <img class="dp-photo" src="/RB_9666-dde5-48a7-af31-32a658c9f4ea_1730459184027-fotor-bg-remover-20241104104544.png" alt="abdul photo" width="250">
+            <h4 class="designation">SOFTWARE DEVELOPER</h2>
+            <h1> ABDUL SAMAD </h1>
+            <p class="abouttext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus harum sint voluptas, eligendi suscipit incidunt. Cupiditate repellat omnis officia eligendi ducimus ea culpa repellendus? Quos labore maxime aliquid voluptates quae?</p>
+        </div>
+        <div class="domain">
+            <button class="about">ABOUT ME</button>
+            <button class="hire">HIRE ME</button>
+        </div>
+        <p class="check" >checkout my: </p>
+        <div class="media">
+            <img src="/instagram.png" alt="instagram" width="32">
+            <img src="/facebook (1).png" alt="facebook" width="32">
+            <img src="/1000002890.jpg" alt="twiter" width="32">
+            <img src="/1000002891.jpg" alt="mail" width="32">
+            <img src="/1000002892.jpg" alt="youtube" width="32">
+            <img src="/1000002893.jpg" alt="tiktok" width="32">
+            <img src="/1000002894.jpg" alt="google" width="32">
+        </div>
+        <hr>
+        <div>
+            <h3 style="color: white;">About Me</h3>
+        </div>
+        <hr>
+        <div>
+            <h3 style="color: white;">Education</h3>
+        </div>
+        <hr>
+        <div>
+            <h3 style="color: white;">Experience</h3>
+        </div>
+    </body> 
+</html>
